@@ -311,6 +311,11 @@
   <ItemGroup>
     <None Include="Libs\Readme.md" />
   </ItemGroup>
+  <ItemGroup>
+    <Library Include="Libs\FTD3XX.lib" />
+    <Library Include="Libs\leechcore.lib" />
+    <Library Include="Libs\vmm.lib" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
